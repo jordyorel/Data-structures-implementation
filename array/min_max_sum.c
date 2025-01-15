@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <limits.h>
 
+
+
+
 int main() {
     int arr[5] = {1, 3, 5, 7, 9};
     int min = INT_MAX;
@@ -17,7 +20,6 @@ int main() {
         if(arr[i] > max) {
             max = arr[i];
         }
-        
     }
     int min_sum = sum - max;
     int max_sum = sum - min;
